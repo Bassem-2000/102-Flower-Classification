@@ -1,0 +1,14 @@
+mlflow==2.4
+cffi==1.15.1
+dill==0.3.6
+importlib-metadata==6.6.0
+numpy==1.22.4
+packaging==23.1
+pandas==1.5.3
+pillow==9.5.0
+protobuf==3.19.6
+requests==2.31.0
+scipy==1.10.1
+tensorflow-gpu==2.10.0
+tensorflow-io==0.31.0
+tensorflow==2.10.0
