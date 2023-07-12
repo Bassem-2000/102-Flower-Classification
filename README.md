@@ -10,7 +10,7 @@ http://www.robots.ox.ac.uk/~vgg/publications/papers/nilsback08.{pdf,ps.gz}.
 ### Installation Instructions:
 - I have provided a Txt file that contains all the libraries that you need to run the notebook the file name is **"requirements.txt"** and also provides **"conda.yaml"** these two files for the final model.
 - If you want to use mlflow and see the experiment tracking I did, you can use this command in cmd after activating the environment **"mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts --host 0.0.0.0 --port 5000"** before this you should download the database and the artifacts file.
-- just download the dataset from this link **"https://www.robots.ox.ac.uk/~vgg/data/flowers/102/"** then download the repo and here you are ready to run the code or you can use the model.h5 instead of all the steps but unfortunately the files all can not be uploaded to GitHub due to size of them so I have attached a link **https://drive.google.com/drive/folders/15vKH-LhAl14TOOTaxZgSVMH-wQ3Q5wcP?usp=sharing** that you can use to download all others files that don't exist here.
+- just download the dataset from this **[link](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)** then download the repo and here you are ready to run the code or you can use the model.h5 instead of all the steps but unfortunately the files all can not be uploaded to GitHub due to size of them so I have attached a link **[link](https://drive.google.com/drive/folders/15vKH-LhAl14TOOTaxZgSVMH-wQ3Q5wcP?usp=sharing)** that you can use to download all others files that don't exist here.
 
 ### Usage Guide:
 - I put the image paths and labels from the mat file into a dataframe to make it easier for me here is the snippet
@@ -21,7 +21,7 @@ http://www.robots.ox.ac.uk/~vgg/publications/papers/nilsback08.{pdf,ps.gz}.
  ![ImageDataGenerator](https://github.com/Bassem-2000/Images/blob/main/Screenshot%202023-07-11%20143849.png?raw=true)
 
 ### Model Architecture:
-- I used the Resnet Architecture and used different fine-tuning[here](https://chat.openai.com/?model=text-davinci-002-render-sha) and architecture but my final model and architecture are done by applying fine-tuning to the final layers as I made the last 15 layers nontrainable and add some neurons here is the snippet for model summary
+- I used the Resnet Architecture and used different fine-tuning and architecture but my final model and architecture are done by applying fine-tuning to the final layers as I made the last 15 layers nontrainable and add some neurons here is the snippet for model summary
   
  ![Architecture](https://github.com/Bassem-2000/Images/blob/main/Screenshot%202023-07-11%20144116.png?raw=true)
 
