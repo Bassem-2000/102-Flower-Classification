@@ -15,31 +15,32 @@ http://www.robots.ox.ac.uk/~vgg/publications/papers/nilsback08.{pdf,ps.gz}.
 ## Usage Guide:
 - I put the image paths and labels from the mat file into a dataframe to make it easier for me here is the snippet
   
- ![dataframe](https://github.com/Bassem-2000/Images/blob/main/Screenshot%202023-07-11%20143723.png?raw=true)
+ ![dataframe](https://github.com/Bassem-2000/102-Flower-Classification/blob/main/Flowers/Screenshot%202023-07-11%20143723.png?raw=true?raw=true)
+ 
 - after that, I used ImageDataGenerator from keras to load the data by applying some data augmentation to the training dataset here is the snippet
   
- ![ImageDataGenerator](https://github.com/Bassem-2000/Images/blob/main/Screenshot%202023-07-11%20143849.png?raw=true)
+ ![ImageDataGenerator](https://github.com/Bassem-2000/102-Flower-Classification/blob/main/Flowers/Screenshot%202023-07-11%20143849.png?raw=true?raw=true)
 
 ## Model Architecture:
 - I used the Resnet Architecture and used different fine-tuning and architecture but my final model and architecture are done by applying fine-tuning to the final layers as I made the last 15 layers nontrainable and add some neurons here is the snippet for the model summary
   
- ![Architecture](https://github.com/Bassem-2000/Images/blob/main/Screenshot%202023-07-11%20144116.png?raw=true)
+ ![Architecture](https://github.com/Bassem-2000/102-Flower-Classification/blob/main/Flowers/Screenshot%202023-07-11%20144116.png?raw=true?raw=true)
 
 
 ## Evaluation:
 - I used different approaches to test the performance of the architecture and the model like accuracy, loss, Recall, Precision, and Confusion matrix all of these approaches were used on every architecture I did and you can see it from the mlflow experiment tracking you can download the database and files to test it by yourself, here are the final model performance:
   
- ![Accuracy](https://github.com/Bassem-2000/Images/blob/main/Screenshot%202023-07-12%20132106.png?raw=true)
- ![Accuracy](https://github.com/Bassem-2000/Images/blob/main/Accuracy_Run(8).png?raw=true)
- ![Loss](https://github.com/Bassem-2000/Images/blob/main/Loss_Run(8).png?raw=true)
- ![Recall](https://github.com/Bassem-2000/Images/blob/main/Recall_Run(8).png?raw=true)
- ![Precision](https://github.com/Bassem-2000/Images/blob/main/Prescision_Run(8).png?raw=true)
- ![Confusion Matrix](https://github.com/Bassem-2000/Images/blob/main/Confusion_Matrix_Run(8).png?raw=true)
+ ![Accuracy](https://github.com/Bassem-2000/102-Flower-Classification/blob/main/Flowers/Screenshot%202023-07-12%20132106.png?raw=true?raw=true)
+ ![Accuracy](https://github.com/Bassem-2000/102-Flower-Classification/blob/main/Flowers/Accuracy_Run(8).png?raw=true?raw=true)
+ ![Loss](https://github.com/Bassem-2000/102-Flower-Classification/blob/main/Flowers/Loss_Run(8).png?raw=true?raw=true)
+ ![Recall](https://github.com/Bassem-2000/102-Flower-Classification/blob/main/Flowers/Recall_Run(8).png?raw=true?raw=true)
+ ![Precision](https://github.com/Bassem-2000/102-Flower-Classification/blob/main/Flowers/Prescision_Run(8).png?raw=true?raw=true)
+ ![Confusion Matrix](https://github.com/Bassem-2000/102-Flower-Classification/blob/main/Flowers/Confusion_Matrix_Run(8).png?raw=true?raw=true)
 
 ## Example:
 - I test the model with a random image and visualize it here you can see the image with the prediction:
 
- ![Confusion Matrix](https://github.com/Bassem-2000/Images/blob/main/Screenshot%202023-07-11%20153449.png?raw=true)
+ ![Confusion Matrix](https://github.com/Bassem-2000/102-Flower-Classification/blob/main/Flowers/Screenshot%202023-07-11%20153449.png?raw=true?raw=true)
 
 
 ## Contact:
